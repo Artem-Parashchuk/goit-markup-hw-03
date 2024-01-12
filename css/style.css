@@ -74,6 +74,7 @@ main {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-link {
   color: var(--secondary-text-color);
@@ -91,8 +92,8 @@ main {
 .address-list {
   display: flex;
 }
-.nav-title {
-  padding: 24px 0;
+.address-list {
+    padding: 24px 0;
 }
 .address-link {
   color: var(--main-text-color);
@@ -102,9 +103,6 @@ main {
 .address-link:hover,
 .address-link:focus {
   color: var(--color-for-hover);
-}
-.address-title {
-  padding: 24px 0;
 }
 .address-title:not(:last-child) {
   margin-right: 40px;
