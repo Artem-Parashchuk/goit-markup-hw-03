@@ -73,7 +73,6 @@ main {
 }
 .nav-list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 .nav-link {
@@ -91,6 +90,8 @@ main {
 }
 .address-list {
   display: flex;
+}
+.nav-title {
   padding: 24px 0;
 }
 .address-link {
@@ -101,6 +102,9 @@ main {
 .address-link:hover,
 .address-link:focus {
   color: var(--color-for-hover);
+}
+.address-title {
+  padding: 24px 0;
 }
 .address-title:not(:last-child) {
   margin-right: 40px;
@@ -243,6 +247,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   justify-content: space-between;
 }
 .portfolio-item {
@@ -254,7 +259,6 @@ main {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  row-gap: 48px;
 }
 .portfolio-description {
   padding: 32px 16px;
@@ -291,7 +295,7 @@ main {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
 }
-.footer-container.logo {
+.footer-container .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
