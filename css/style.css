@@ -74,9 +74,10 @@ main {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-link {
+  display: inline-block;
+  padding: 24px 0;
   color: var(--secondary-text-color);
   line-height: 1.5;
   font-weight: 500;
@@ -92,10 +93,9 @@ main {
 .address-list {
   display: flex;
 }
-.address-list {
-    padding: 24px 0;
-}
 .address-link {
+  display: inline-block;
+  padding: 24px 0;
   color: var(--main-text-color);
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -104,6 +104,7 @@ main {
 .address-link:focus {
   color: var(--color-for-hover);
 }
+
 .address-title:not(:last-child) {
   margin-right: 40px;
 }
