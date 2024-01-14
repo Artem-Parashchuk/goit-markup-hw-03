@@ -249,7 +249,7 @@ main {
   row-gap: 48px;
   justify-content: space-between;
 }
-.portfolio-item {
+.portfolio-section-item{
   margin-bottom: 72px;
   color: var(--secondary-text-color);
   font-size: 32px;
